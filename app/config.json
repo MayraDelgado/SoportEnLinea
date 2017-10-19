@@ -1,0 +1,21 @@
+{
+  "name": "AddinChat",
+  "supportEmail": "mayra.delgado@metricamovil.com",
+  "version": "0.0.1",
+  "items": [{
+    
+    "url": "AddinChatmm.html",
+    "path": "AdministrationLink/",
+    "menuName": {
+      "en": "Chat"
+    },
+    
+    "icon": "images/icon.svg"
+  }],
+  "dev": {
+    "root": "addinChat",
+    "dist": {
+      "host": "https://www.example.com/myaddin/"
+    }
+  }
+}
