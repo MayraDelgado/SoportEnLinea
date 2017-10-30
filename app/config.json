@@ -1,10 +1,10 @@
 {
-  "name": "AddinChat",
+  "name": "AddinBaseDatos",
   "supportEmail": "mayra.delgado@metricamovil.com",
   "version": "0.0.1",
   "items": [{
     
-    "url": "AddinChatmm.html",
+    "url": "altaBaseDatos.html",
     "path": "AdministrationLink/",
     "menuName": {
       "en": "Chat"
@@ -13,7 +13,7 @@
     "icon": "images/icon.svg"
   }],
   "dev": {
-    "root": "addinChat",
+    "root": "addinBaseDatos",
     "dist": {
       "host": "https://www.example.com/myaddin/"
     }

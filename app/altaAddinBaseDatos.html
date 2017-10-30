@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/js/bootstrap.js">
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="/bower_components/jquery/dist/jquery.min.js" />
+</head>
+<body>
+    <div id="testAddinBootstrap" class="app bootstrap">
+        <div class="container-fluid">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h5 class="text-gray-dark">DATOS DE LA COMPAÑIA</h5>
+                </div>
+                <!--inicio vista nombre compañia-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6 class="text-gray-dark"><label for="nameCompany-text-input" class=" col-xs-2 ">Nombre Compañia:</label></h6>
+                        </div>
+                        <div class="col-md-5 ">
+                            <input class="form-control" type="text" placeholder="Nombre compañia" id="nameCompany-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista telefono-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="telefono-text-input" class="col-md-2">Numero de telefono:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="Numero de telefono" id="telefono-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista tamaño flota-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="flota-text-input" class="col-md-2">Tamaño Flota:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <select class="form-control form-control-sm" id="flota-text-input">
+                                <option>Seleccionar...</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista zonaHoraria-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="zonaHoraria-text-input" class="col-md-2">Zona Horaria:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <select class="form-control" id="zonaHoraria-text-input">
+                                <option>Seleccionar...</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                </div>
+            <!--fin panel compañia-->
+            <!--inicia panel cuenta-->
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h5 class="text-gray-dark">DATOS DE LA CUENTA</h5>
+                </div>
+                <!--inicio vista server-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="server-text-input" class="col-md-2">Servidor:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="my.geotab.com" id="server-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista nombreBD-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="NameBD-text-input" class="col-md-2">Nombre Base de Datos:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="Nombre Base de Datos" id="NameBD-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista nombreAdmin-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="NameAdmin-text-input" class="col-md-2">Nombre Adiministrador:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="Nombre Administrador" id="NameAdmin-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista apellidoAdmin-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="ApellidoAdmin-text-input" class="col-md-2">Apellido Adiministrador:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="Apellido Administrador" id="ApellidoAdmin-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista emailAdmin-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="emailAdmin-text-input" class="col-md-2">Correo Electronico:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="emailAdmin-text-input">@</span>
+                                <input class="form-control form-control-sm" type="text" placeholder="Correo Electronico" id="emailAdmin-text-input">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista contraseñaAdmin-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="contraseñaAdmin-text-input" class="col-md-2">Contraseña:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="password" placeholder="Contraseña" id="contraseñaAdmin-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista confirmarcontraseña-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="confirmcontraseñaAdmin-text-input" class="col-md-2">Confirmacion contraseña:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="password" placeholder="Confirmacion contraseña" id="confirmcontraseñaAdmin-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista importar perfil -->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6><label for="importPerfil-text-input" class="col-md-2">Importar Perfil:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <label class="custom-file">
+                                <input type="file" id="importPerfil-text-input" class="custom-file-input">
+                                <span class="custom-file-control"></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista captcha-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="text-xl-left">
+                            <h6 class="text-gray-dark"><label for="captcha-text-input" class="col-md-2">Capturar CAPTCHA:</label></h6>
+                        </div>
+                        <div class="col-md-5">
+                            <input class="form-control" type="text" placeholder="Capturar CAPTCHA" id="captcha-text-input">
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+                <!--inicio vista botonGuardarBaseDatos-->
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="text-right">
+                                <button type="button" class="btn btn-primary">GUARDAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin-->
+            </div>               
+            </div>
+        </div>
+</body>
+</html>
