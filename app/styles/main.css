@@ -1,7 +1,7 @@
 .hidden {
     display: none;
 }
-@media (min-width: 768px) docs.css:915 .bs-example {
+/*@media (min-width: 768px) docs.css:915 .bs-example {
     margin-right:0; margin-left: 0; background-color: #fff; border-color: #ddd; border-width: 1px; border-radius: 4px 4px 0 0; -webkit-box-shadow: none; box-shadow: none;
 }
 .bs-example {
@@ -66,8 +66,8 @@ user agent stylesheet div {
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
-
-.col-10 {
+/*
+    .col-10 {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 83.333333%;
     -ms-flex: 0 0 83.333333%;
@@ -116,10 +116,11 @@ Inherited from body.bd-docs _reboot.scss:76 body {
     color: #292b2c;
     background-color: #fff;
 }
+/*
 @media (min-width: 576px) docs.min.css:7 .bd-example {
     padding: 1.5rem; margin-right: 0; margin-bottom: 0; margin-left: 0; border-width: .2rem;
-}
-
+}*/
+/*
 docs.min.css:7 .bd-example {
     position: relative;
     padding: 1rem;
@@ -137,7 +138,7 @@ user agent stylesheet div {
     display: block;
 }
 
-@media (min-width: 576px)
+/*@media (min-width: 576px)
 docs.min.css:7
 .bd-example {
     padding: 1.5rem;
@@ -162,4 +163,4 @@ _reboot.scss:29
 user agent stylesheet
 div {
     display: block;
-}
+}*/
